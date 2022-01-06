@@ -31,3 +31,4 @@ A series of Python tutorials from **Beginner** through **Intermediate** to **Adv
   - Lambda
   - Itertools
   - Generators
+  - Zip
