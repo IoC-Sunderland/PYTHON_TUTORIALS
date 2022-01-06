@@ -1,7 +1,7 @@
 # PYTHON_TUTORIALS
 A series of Python tutorials from **Beginner** through **Intermediate** to **Advanced**.
 
-Beginner:
+**Beginner:**
 
   - Strings
   - Data Types
@@ -11,7 +11,7 @@ Beginner:
   - Functions
 
 
-Intermediate:
+**Intermediate:**
 
   - OOP
       - Objects/Classes
@@ -26,7 +26,7 @@ Intermediate:
       - @staticmethod
 
 
-Advanced:
+**Advanced:**
 
   - Lambda
   - Itertools
