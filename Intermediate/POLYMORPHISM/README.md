@@ -101,4 +101,28 @@ It doesn't have a problem with you having duplicate method names in sub-classes.
 
 This is ***Method Overriding***
 
+**Question:** What happens if you don't provide a method with the same name in the sub-class?
+
+Example:
+
+```
+class Parent:
+    
+    def printMe(self):
+        return "I am instance of Parent class"
+
+class Child(Parent):
+    pass
+```
+
+```
+p1 = Parent()
+c1 = Child()
+
+p1.printMe()
+>>> 'I am instance of Parent class'
+
+c1.printMe()
+>>> 'I am instance of Child class'
+```
 ## Method Overloading
