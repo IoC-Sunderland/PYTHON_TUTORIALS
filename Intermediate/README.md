@@ -134,3 +134,5 @@ print(p1.bar) # "bar"
 print(p1.baz) # AttributeError: 'Parent' object has no attribute 'baz'
 ```
 So we have successfully mixed and matched attributes from different classes, some from the Parent class through the use of ***super()*** and some from the Child class through the use of it's own ***\_\_init\_\_()*** method.
+
+A nice, short article is available [here](https://towardsdatascience.com/master-class-inheritance-in-python-c46bfda63374) which covers the above topics with some more examples.
