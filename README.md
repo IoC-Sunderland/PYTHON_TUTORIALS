@@ -17,7 +17,7 @@ A series of Python tutorials from **Beginner** through **Intermediate** to **Adv
       - Objects/Classes
       - Attributes
       - Methods
-      - Inheritance
+      - Inheritance :dart:
       - Polymorphism
       
   - Decorators
