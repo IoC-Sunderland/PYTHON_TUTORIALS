@@ -78,7 +78,7 @@ Hi from Parent's test() method!
 Again, through the use of ***Inheritance*** we have given the Child class the ability to call a method defined solely in the Parent class.
 
 ## The use of super()
-So, we have looked at how we can, through the use of ***Inheritance*** we can get access to attributes and methods defined in a Parent class.
+So, we have looked at how we can, through the use of ***Inheritance***, get access to attributes and methods defined in a Parent class.
 
 But what if we want to mix and match our attrbutes and methods i.e. what if we want to use something from the Parent class and something else from the Child class?
 
