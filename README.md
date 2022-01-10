@@ -20,7 +20,7 @@ A series of Python tutorials from **Beginner** through **Intermediate** to **Adv
       - Attributes
       - Methods
       - Inheritance :dart:
-      - Polymorphism
+      - Polymorphism :dart:
       
   - Decorators
       - @property
