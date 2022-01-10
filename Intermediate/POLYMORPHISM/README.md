@@ -99,6 +99,6 @@ Python defaults to calling the ***printMe()*** method of the instance type you h
 
 It doesn't have a problem with you having duplicate method names in sub-classes.
 
-This is ***Method Oveririding***
+This is ***Method Overriding***
 
 ## Method Overloading
