@@ -1,6 +1,8 @@
 # PYTHON_TUTORIALS
 A series of Python tutorials from **Beginner** through **Intermediate** to **Advanced**.
 
+:dart: indicates topic complete!
+
 **Beginner:**
 
   - Strings
@@ -17,7 +19,7 @@ A series of Python tutorials from **Beginner** through **Intermediate** to **Adv
       - Objects/Classes
       - Attributes
       - Methods
-      - Inheritance
+      - Inheritance :dart:
       - Polymorphism
       
   - Decorators
