@@ -123,6 +123,24 @@ p1.printMe()
 >>> 'I am instance of Parent class'
 
 c1.printMe()
->>> 'I am instance of Child class'
+>>> 'I am instance of Parent class'
 ```
+Python calls the method ***printMe()*** from the Parent class.
+
 ## Method Overloading
+Method Overloading occurs when we have two methods with ***the same name*** in our two classes ***BUT*** they have different ***Method Signatures***.
+
+***Method Signatures*** are the arguments we specifiy for the method.
+
+For example, let's say you have two methods called printMe (below):
+
+```
+printMe(greeting) # One argument
+printMe(greeting, name) # Two arguments
+```
+
+Because the second printMe() method has a different number of arguments to the first this would be considered ***overloaded***.
+
+Having different data types in the two methods could also be an example of ***overloading***.
+
+Python doesn't support Method Overloading (you can sort of do it but not really) so nothing to see here but if you want to look at an example in **Java** [be my guest](https://www.javatpoint.com/method-overloading-in-java).
