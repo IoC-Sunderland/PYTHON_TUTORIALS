@@ -25,7 +25,7 @@ How about:
 >>> "He" + "llo"
 'Hello'
 ```
-Interesting, we have used the **+** operator in two different scenarios and it worked in differnt ways. 
+Interesting, we have used the **+** operator in two different scenarios and it worked in different ways. 
 
 With **integers** provided it added them together and printed the result.
 
@@ -33,7 +33,7 @@ With **strings** provided it concatenated them together and printed the result.
 
 This is ***Polymorphism*** in action!
 
-The **+** operator is taking two differnet forms depending on what we give it to work with.
+The **+** operator is taking two different forms depending on what we give it to work with.
 
 
 ## Function Polymorphism
