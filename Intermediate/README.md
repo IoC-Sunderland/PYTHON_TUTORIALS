@@ -77,3 +77,60 @@ Hi from Parent's test() method!
 ```
 Again, through the use of ***Inheritance*** we have given the Child class the ability to call a method defined solely in the Parent class.
 
+## The use of super()
+So, we have looked at how we can, through the use of ***Inheritance*** we can get access to attributes and methods defined in a Parent class.
+
+But what if we want to mix and match our attrbutes and methods i.e. what if we want to use something from the Parent class and something else from the Child class?
+
+We can use ***super()***!
+
+Let's go back to our **Parent** class:
+
+```
+class Parent:
+    def __init__(self):
+        self.foo = "foo"
+        self.bar = "bar"
+    
+    def test(self):
+        return "Hi from Parent's test() method!"
+```
+
+Now, let's create a sub-class of Parent called Child:
+
+```
+class Child(Parent):
+    def __init__(self):
+        super().__init__() # Call Parent's constructor
+```
+Here we have explicitly called the ***\_\_init\_\_()*** method of the super class Parent.
+
+This will mean we have access to the attributes defined in the Parent class in our Child class instance (below):
+
+```
+c1 = Child()
+print(c1.foo) # "foo"
+print(c1.bar) # "bar"
+```
+Now to mix and match:
+```
+class Child(Parent):
+    def __init__(self):
+        super().__init__()
+        self.baz = "baz" # Attribute unique to Child
+```
+```
+c1 = Child()
+print(c1.foo) # "foo"
+print(c1.bar) # "bar"
+print(c1.baz) # "baz"
+```
+If we try and access the same attribute from an instance of Parent we get an error:
+
+```
+p1 = Parent()
+print(p1.foo) # "foo"
+print(p1.bar) # "bar"
+print(p1.baz) # AttributeError: 'Parent' object has no attribute 'baz'
+```
+So we have successfully mixed and matched attributes from different classes, some from the Parent class through the use of ***super()*** and some from the Child class through the use of it's own ***\_\_init\_\_()*** method.
