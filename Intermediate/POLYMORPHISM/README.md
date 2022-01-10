@@ -66,5 +66,39 @@ Again, the function behaves differently depending on data type provided, another
 
 
 ## Method Overriding
+Method overriding occurs when we have a method that exists in both the **Parent** class and the **Child** class with ***the same name***
+
+Example:
+```
+class Parent:
+    
+    def printMe(self):
+        return "I am instance of Parent class"
+
+class Child(Parent):
+
+    def printMe(self):
+        return "I am instance of Child class"
+```
+Both classes have a ***printMe()*** method which returns a string.
+
+Let's create some instances and work with them:
+
+```
+p1 = Parent()
+c1 = Child()
+
+p1.printMe()
+>>> 'I am instance of Parent class'
+
+c1.printMe()
+>>> 'I am instance of Child class'
+```
+
+Python defaults to calling the ***printMe()*** method of the instance type you have created.
+
+It doesn't have a problem with you having duplicate method names in sub-classes.
+
+This is ***Method Oveririding***
 
 ## Method Overloading
