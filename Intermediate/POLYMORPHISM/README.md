@@ -40,13 +40,9 @@ The **+** operator is taking two different forms depending on what we give it to
 Another example of Polymorphism can be the use of a function that provides different information depending on what type of data we pass it.
 
 ```
-print(len("Hello")) # String
-print(len([1, 2, 3])) # List
-print(len({"Name": "Bob"})) # Dictionary
-
-5
-3
-1
+print(len("Hello")) # 5
+print(len([1, 2, 3])) # 3
+print(len({"Name": "Bob"})) # 1
 ```
 When using **len()** function above we get the following:
 
@@ -88,11 +84,9 @@ Let's create some instances and work with them:
 p1 = Parent()
 c1 = Child()
 
-p1.printMe()
->>> 'I am instance of Parent class'
+p1.printMe() # 'I am instance of Parent class'
 
-c1.printMe()
->>> 'I am instance of Child class'
+c1.printMe() # 'I am instance of Child class'
 ```
 
 Python defaults to calling the ***printMe()*** method of the instance type you have created.
@@ -119,11 +113,9 @@ class Child(Parent):
 p1 = Parent()
 c1 = Child()
 
-p1.printMe()
->>> 'I am instance of Parent class'
+p1.printMe() # 'I am instance of Parent class'
 
-c1.printMe()
->>> 'I am instance of Parent class'
+c1.printMe() # 'I am instance of Parent class'
 ```
 Python calls the method ***printMe()*** from the Parent class.
 
@@ -135,14 +127,28 @@ Method Overloading occurs when we have two methods with ***the same name*** in o
 For example, let's say you have two methods called printMe (below):
 
 ```
-printMe(greeting) # One argument
-printMe(greeting, name) # Two arguments
+# Function with 1 argument
+def printMe(arg1):
+    print(arg1 + " was passed.")
+
+# Function with 2 arguments
+def printMe(arg1, arg2):
+    print(arg1, arg2 + " were passed.")
 ```
 
 Because the second printMe() method has a different number of arguments to the first this would be considered ***overloaded***.
 
-Having different data types in the two methods could also be an example of ***overloading***.
+***Note: Having different data types in the two methods could also be an example of ***overloading***.***
 
-Python doesn't support Method Overloading (you can sort of do it but not really) so nothing to see here but if you want to look at an example in **Java** [be my guest](https://www.javatpoint.com/method-overloading-in-java).
+However, if we try and use these methods in Python look what happens:
+
+```
+printMe("test") #  TypeError: printMe() missing 1 required positional argument: 'arg2'
+```
+```
+printMe("test1", "test2") # test1 test2 were passed.
+```
+Only the last function/method defined in the code can be used so essentially Python doesn't support Method Overloading but if you want to look at an example in Java [be my guest](https://www.javatpoint.com/method-overloading-in-java).
+
 
 A nice, short article is available [here](https://www.programiz.com/python-programming/polymorphism) which covers the above topics with some more examples.
