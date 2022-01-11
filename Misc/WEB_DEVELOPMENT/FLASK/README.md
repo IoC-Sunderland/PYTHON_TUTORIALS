@@ -95,3 +95,25 @@ Note the line:
 You should get something like this:
 
 ![alt text](./img/hello_world.png "Title")
+
+If another program is already using port 5000, you’ll see OSError: [Errno 98] or OSError: [WinError 10013] when the server tries to start. In this case the easiest solution is to change the port to another port number.
+
+Example:
+```
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+
+if __name__ == "__main__":
+    app.run(debug=True, port=8080)
+```
+
+Then access at the create port:
+```
+localhost:8080
+```
+To stop the web server running, go to the terminal and type command ***Ctrl+C***.
