@@ -112,7 +112,7 @@ if __name__ == "__main__":
     app.run(debug=True, port=8080)
 ```
 
-Then access at the create port:
+Then access at the correct port:
 ```
 localhost:8080
 ```
