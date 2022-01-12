@@ -32,14 +32,24 @@ s = c.decode("UTF-8")
 print(type(s)) # <class 'str'>
 
 ```
-If you are interested, you can view the full **UTF-8** character set [here](https://www.utf8-chartable.de/)
+If you are interested, you can view the all Unicode characters [here](https://www.rapidtables.com/code/text/unicode-characters.html)
+
+And **ASCII** [here](https://www.rapidtables.com/code/text/ascii-table.html)
 
 <br>
 
 # Working with Strings
 There are several operations we may want to do on Strings, below are some examples.
 
-Get a character at a specific index:
+**Concatenate** strings together:
+```
+s1 = "He"
+s2 = "llo"
+
+s1 + s2 # 'Hello'
+```
+
+Get a character at a specific **index**:
 ```
 s = "12345"
 
@@ -49,7 +59,7 @@ s[2] # 3
 s[3] # 4
 s[4] # 5
 ```
-Loop through the string:
+**Loop** through the string:
 ```
 s = "12345"
 
@@ -86,4 +96,4 @@ s = "UPPER"
 s.lower() # 'upper'
 ```
 
-A nice article can be found [here](https://realpython.com/python-strings/) with more examples.
+A nice article can be found [here](https://realpython.com/python-strings/) with more examples of working with strings.
