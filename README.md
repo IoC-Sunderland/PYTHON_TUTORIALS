@@ -9,6 +9,8 @@ A series of Python tutorials from **Beginner** through **Intermediate** to **Adv
   - Strings :dart:
   - Data Types
   - Data Structures
+      - Lists
+      - Dictionaries
   - If/Elif/Else
   - Loops (While and For)
   - Functions
