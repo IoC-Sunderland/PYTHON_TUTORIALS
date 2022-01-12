@@ -6,7 +6,7 @@ A series of Python tutorials from **Beginner** through **Intermediate** to **Adv
 **Beginner:**
 
   - Variables :dart:
-  - Strings
+  - Strings :dart:
   - Data Types
   - Data Structures
   - If/Elif/Else
