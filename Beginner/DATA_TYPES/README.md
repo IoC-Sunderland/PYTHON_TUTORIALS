@@ -11,7 +11,7 @@ Below are some of Python's built-in data types.
 | **str** | Sequence of characters | "Hello"
 | **bool**     | True or False value | True
 | **list** |  A list/array of mutable values | ['apples', 'oranges', 'pears]
-| **tuple** | Similar to list but immutable | ('apples', 'oranges', 'pears)
+| **tuple** | Similar to list but immutable | ('apples', 'oranges', 'pears')
 | **dict** | Stores key:value pairs, mutable |   {"name":"Bob, "age" 21}
 
 **What is mutable/immutable?**
