@@ -15,7 +15,8 @@ Below are some of Python's built-in data types.
 | **dict** | Stores key:value pairs, mutable |   {"name":"Bob, "age": 21}
 
 **What is mutable/immutable?**
-Mutability is the ability to be able change.
+
+Mutability is the ability to be able to change.
 
 If we say something is **mutable** then it can change.
 
