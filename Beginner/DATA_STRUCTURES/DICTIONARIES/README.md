@@ -1,11 +1,11 @@
 # Dictionaries
-A Python **dictionary** is a data structure that is used to store key:value pairs.
+A Python **dictionary** is a data structure that is used to store ***key:value*** pairs.
 
 It is broadly equivalant to a **hashmap** or **hashtable** in other languages.
 
-Historically, **dictonaries** were ***not ordered*** (to improve search speeds) 
+Historically, **dictionaries** were ***not ordered*** (to improve search speeds).
 
-If you wanted to order a dictionary you could of used an ***OrderedDict***
+If you wanted to order a dictionary you could of used an ***OrderedDict***.
 
 *Note: All dictionaries are now ordered in Python since **version 3.6***
 
@@ -16,7 +16,7 @@ my_dict_1 = {'name': 'Gav',
            'age': 21,
            'job': 'Lecturer'}
 ```
-Above dictionary is defined as:
+Above dictionary explained:
 
 Name of dictionary: ***my_dict_1***
 
@@ -26,13 +26,13 @@ Values: ***'Gav'***, ***21***, ***'Lecturer'***
 
 Each key:value pair is seperated by a comma.
 
-If we want to get all they ***keys***:
+If we want to get all the ***keys***:
 ```
 for i in my_dict_1:
     print(i)
 ```
 
-If we want to get all they ***values***:
+If we want to get all the ***values***:
 ```
 for i in my_dict_1:
     print(my_dict_1[i])
