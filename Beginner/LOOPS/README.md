@@ -62,7 +62,7 @@ Result:
 3
 ```
 
-# While loops
+## While loops
 The ***while*** loop:
 ```
 n = 10
