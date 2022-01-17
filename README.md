@@ -7,7 +7,7 @@ A series of Python tutorials from **Beginner** through **Intermediate** to **Adv
 
   - Variables :dart:
   - Strings :dart:
-  - Data Types
+  - Data Types :dart:
   - Data Structures
       - Lists :dart:
       - Dictionaries :dart:
