@@ -13,7 +13,7 @@ A series of Python tutorials from **Beginner** through **Intermediate** to **Adv
       - Dictionaries :dart:
   - If/Elif/Else
   - Loops (While and For)
-  - Functions
+  - Functions dart:
 
 
 **Intermediate:**
