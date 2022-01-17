@@ -11,7 +11,9 @@ l = ['apples', 'oranges', 'pears']
 
 print(l) # ['apples', 'oranges', 'pears']
 ```
+
 ***Lists*** are mutable:
+
 ```
 l = ['apples', 'oranges', 'pears']
 
@@ -20,6 +22,8 @@ l.append('bananas') # Add bananas
 print(l) # ['apples', 'oranges', 'pears', 'bananas']
 ```
 *Note: ***Tuples*** are similar to lists but are ***immutable****
+
+</br>
 
 Accessing items by ***index***:
 ```
