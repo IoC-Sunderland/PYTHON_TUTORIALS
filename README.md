@@ -10,7 +10,7 @@ A series of Python tutorials from **Beginner** through **Intermediate** to **Adv
   - Data Types
   - Data Structures
       - Lists
-      - Dictionaries
+      - Dictionaries :dart:
   - If/Elif/Else
   - Loops (While and For)
   - Functions
