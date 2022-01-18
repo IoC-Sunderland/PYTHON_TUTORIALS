@@ -11,7 +11,7 @@ A series of Python tutorials from **Beginner** through **Intermediate** to **Adv
   - Data Structures
       - Lists :dart:
       - Dictionaries :dart:
-  - If/Elif/Else
+  - If/Elif/Else :dart:
   - Loops (While and For)
   - Functions :dart:
 
