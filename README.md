@@ -12,7 +12,7 @@ A series of Python tutorials from **Beginner** through **Intermediate** to **Adv
       - Lists :dart:
       - Dictionaries :dart:
   - If/Elif/Else :dart:
-  - Loops (While and For)
+  - Loops (While and For) :dart:
   - Functions :dart:
 
 
